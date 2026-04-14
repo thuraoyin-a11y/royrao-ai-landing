@@ -126,13 +126,13 @@ export default function Demo() {
                   <span className="h-3 w-3 rounded-full bg-[#28C840]" />
                 </div>
                 <div className="mx-4 flex-1 rounded-md bg-white px-3 py-1 text-xs text-[#999999]">
-                  royraoai.top/toefl-demo
+                  toefl-build-a-sentence-jkso.vercel.app
                 </div>
               </div>
               <div style={{ height: isMobile ? '259px' : '359px' }} className="w-full">
                 {iframeLoaded ? (
                   <iframe
-                    src="/toefl-demo"
+                    src="https://toefl-build-a-sentence-jkso.vercel.app"
                     title="TOEFL Demo"
                     className="h-full w-full"
                     sandbox="allow-scripts allow-same-origin"
@@ -150,7 +150,7 @@ export default function Demo() {
               <h3 className="text-lg font-semibold text-[#111111]">{t('demo.card1Title')}</h3>
               <p className="mt-1 text-sm text-[#666666]">{t('demo.card1Desc')}</p>
               <a
-                href="/toefl-demo"
+                href="https://toefl-build-a-sentence-jkso.vercel.app"
                 target="_blank"
                 rel="noreferrer"
                 className="mt-3 inline-block rounded-full bg-[#2563EB] px-5 py-2 text-sm font-medium text-white transition-transform hover:scale-105"
