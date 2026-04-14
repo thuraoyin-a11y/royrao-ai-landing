@@ -1,4 +1,3 @@
-cat > src/components/sections/Demo.tsx << 'EOF'
 import { useEffect, useRef, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { gsap } from 'gsap';
@@ -31,7 +30,7 @@ export default function Demo() {
     return () => observer.disconnect();
   }, []);
 
-  // Cards scroll animation (vertical)
+  // Cards scroll animation (vertical fade-in)
   useEffect(() => {
     if (!cardsRef.current) return;
 
@@ -39,22 +38,21 @@ export default function Demo() {
     const triggers: ScrollTrigger[] = [];
 
     Array.from(cards).forEach((card, index) => {
-      const tween = gsap.fromTo(
-        card,
-        { y: 60, opacity: 0 },
-        {
-          y: 0,
-          opacity: 1,
-          duration: 0.8,
-          ease: 'power3.out',
-          scrollTrigger: {
-            trigger: card,
-            start: 'top 85%',
-            toggleActions: 'play none none reverse',
-          },
-          delay: index * 0.15,
-        }
-      );
+      gsap.set(card, { y: 60, opacity: 0 });
+      
+      const tween = gsap.to(card, {
+        y: 0,
+        opacity: 1,
+        duration: 0.8,
+        ease: 'power3.out',
+        scrollTrigger: {
+          trigger: card,
+          start: 'top 85%',
+          toggleActions: 'play none none reverse',
+        },
+        delay: index * 0.15,
+      });
+      
       if (tween.scrollTrigger) triggers.push(tween.scrollTrigger);
     });
 
@@ -93,18 +91,18 @@ export default function Demo() {
       <div ref={cardsRef} className="mx-auto mt-12 max-w-7xl px-6">
         <div className="flex flex-col gap-8">
           
-          {/* Card 1: TOEFL Demo */}
+          {/* Card 1: TOEFL Demo - Full Width */}
           <div className="mx-auto w-full max-w-4xl rounded-2xl border border-[#E5E5E5] bg-white p-6 shadow-sm transition-all duration-500 hover:shadow-lg md:p-8">
             <div className="mb-4 flex items-center justify-between">
               <div className="flex gap-2">
                 <span className="rounded-full bg-green-100 px-3 py-1 text-xs font-medium text-green-700">
-                  {t('demo.card1Status1')}
+                  Live
                 </span>
                 <span className="rounded-full bg-blue-100 px-3 py-1 text-xs font-medium text-[#2563EB]">
-                  {t('demo.card1Status2')}
+                  Customizable
                 </span>
               </div>
-              <span className="text-xs text-[#999999]">{t('demo.card1Stack')}</span>
+              <span className="text-xs text-[#999999]">React + GPT-4 + RAG</span>
             </div>
 
             {/* Browser mockup */}
@@ -120,14 +118,14 @@ export default function Demo() {
                   <span className="h-3 w-3 rounded-full bg-[#28C840]" />
                 </div>
                 <div className="mx-4 flex-1 rounded-md bg-white px-3 py-1 text-center text-xs text-[#999999]">
-                  toefl-demo.vercel.app
+                  toefl-build-a-sentence.vercel.app
                 </div>
               </div>
               <div className="h-[359px] w-full">
                 {iframeLoaded ? (
                   <iframe
                     src="https://toefl-build-a-sentence.vercel.app"
-                    title="TOEFL Demo"
+                    title="TOEFL Build a Sentence"
                     className="h-full w-full"
                     sandbox="allow-scripts allow-same-origin allow-forms"
                     loading="lazy"
@@ -141,37 +139,41 @@ export default function Demo() {
             </div>
 
             <div className="mt-6">
-              <h3 className="text-xl font-semibold text-[#111111]">{t('demo.card1Title')}</h3>
-              <p className="mt-2 text-[#666666]">{t('demo.card1Desc')}</p>
+              <h3 className="text-xl font-semibold text-[#111111]">
+                TOEFL 2026 Writing Task Practice
+              </h3>
+              <p className="mt-2 text-[#666666]">
+                从"写完等三天"到"秒级反馈"——语法错误即时可视化，学生自主练习不再依赖教师实时在线
+              </p>
               <a
                 href="https://toefl-build-a-sentence.vercel.app"
                 target="_blank"
                 rel="noreferrer"
                 className="mt-4 inline-block rounded-full bg-[#2563EB] px-6 py-2.5 text-sm font-medium text-white transition-transform hover:scale-105"
               >
-                {t('demo.card1Cta')}
+                全屏试用 / Full Screen Demo
               </a>
             </div>
           </div>
 
-          {/* Card 2 & 3 - Grid */}
+          {/* Card 2 & 3 - Grid Layout */}
           <div className="grid gap-8 md:grid-cols-2">
             
             {/* Card 2: Coming Soon */}
             <div className="flex flex-col justify-center rounded-2xl border border-[#E5E5E5] bg-[#F3F4F6] p-8 text-center transition-all duration-500 hover:bg-[#E5E7EB] md:p-12">
-              <h3 className="text-xl font-semibold text-[#666666]">{t('demo.card2Title')}</h3>
-              <p className="mt-3 text-sm text-[#999999]">{t('demo.card2Hint')}</p>
+              <h3 className="text-xl font-semibold text-[#666666]">Coming Soon</h3>
+              <p className="mt-3 text-sm text-[#999999]">更多教育场景智能体开发中...</p>
             </div>
 
             {/* Card 3: CTA */}
             <div className="flex flex-col justify-center rounded-2xl bg-gradient-to-br from-[#2563EB] to-[#1D4ED8] p-8 text-white transition-transform duration-500 hover:scale-[1.02] md:p-12">
-              <h3 className="text-2xl font-semibold">{t('demo.card3Title')}</h3>
-              <p className="mt-3 text-white/90">{t('demo.card3Desc')}</p>
+              <h3 className="text-2xl font-semibold">有特定场景需求？</h3>
+              <p className="mt-3 text-white/90">描述您的教学痛点，我们 48 小时内提供可行性方案</p>
               <button
                 onClick={scrollToContact}
                 className="mt-6 self-start rounded-full bg-white px-6 py-2.5 text-sm font-semibold text-[#2563EB] transition-transform hover:scale-105"
               >
-                {t('demo.card3Cta')}
+                预约咨询 / Schedule a Call
               </button>
             </div>
           </div>
@@ -181,4 +183,3 @@ export default function Demo() {
     </section>
   );
 }
-EOF
