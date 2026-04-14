@@ -124,7 +124,7 @@ export default function Demo() {
               <div className="h-[359px] w-full">
                 {iframeLoaded ? (
                   <iframe
-                    src="https://toefl-build-a-sentence.vercel.app"
+                    src="https://toefl-build-a-sentence-jkso.vercel.app"
                     title="TOEFL Build a Sentence"
                     className="h-full w-full"
                     sandbox="allow-scripts allow-same-origin allow-forms"
@@ -146,7 +146,7 @@ export default function Demo() {
                 从"写完等三天"到"秒级反馈"——语法错误即时可视化，学生自主练习不再依赖教师实时在线
               </p>
               <a
-                href="https://toefl-build-a-sentence.vercel.app"
+                href="https://toefl-build-a-sentence-jkso.vercel.app"
                 target="_blank"
                 rel="noreferrer"
                 className="mt-4 inline-block rounded-full bg-[#2563EB] px-6 py-2.5 text-sm font-medium text-white transition-transform hover:scale-105"
