@@ -1,0 +1,102 @@
+{
+  "nav": {
+    "cta": "开始咨询"
+  },
+  "hero": {
+    "title1": "Building Deployable AI Agents",
+    "title2": "for Real-World Education",
+    "subtitle1": "为国际教育",
+    "subtitle2": "搭建可落地的 AI 智能体",
+    "description": "打通教学场景与人工智能的最后一公里",
+    "scroll": "Scroll"
+  },
+  "problemSolution": {
+    "leftTitle": "行业痛点",
+    "rightTitle": "解决方案",
+    "challenge1Title": "教学产能瓶颈",
+    "challenge1Desc": "骨干教师 70% 时间陷入重复性批改与资料整理，教研成果依赖个人经验，无法沉淀为机构资产，难以规模化复制。",
+    "challenge2Title": "运营效率黑洞",
+    "challenge2Desc": "多校区课表协调、家校沟通、考勤统计消耗大量行政人力，信息孤岛导致决策滞后，管理半径受限。",
+    "challenge3Title": "咨询转化天花板",
+    "challenge3Desc": "申请季咨询量暴增时人工响应不及时，顾问培养周期长且服务质量参差，标准化方案难以兼顾个性化需求。",
+    "solution1Title": "AI 教学助手",
+    "solution1Tag": "教学优先",
+    "solution1Desc": "部署作文批改、口语对练、备课助手等场景 Agent，将教师从重复劳动中释放，教研资料转化为可查询的 RAG 知识库。",
+    "solution2Title": "教务自动化",
+    "solution2Tag": "无代码部署",
+    "solution2Desc": "搭建排课优化、家校自动沟通、数据报表生成的工作流，打通多校区信息壁垒，实现管理半径指数级扩展。",
+    "solution3Title": "7×24 咨询引擎",
+    "solution3Tag": "多体系感知",
+    "solution3Desc": "构建院校匹配、文书润色、申请进度追踪的智能顾问，高峰期自动分流 80% 标准咨询，人工顾问专注高价值转化。",
+    "trust": "已服务多所学校与教育机构 · 4 周内从策略到落地"
+  },
+  "services": {
+    "sectionTag": "业务板块",
+    "card1Title": "教学教研智能体",
+    "card1Tag": "教学优先",
+    "card1Target": "教师团队、教研负责人",
+    "card1Item1": "作文自动批改与反馈生成 Agent",
+    "card1Item2": "口语对练与发音纠正智能体",
+    "card1Item3": "个性化教案生成与资源整合 Agent",
+    "card1Item4": "校内知识库构建（历史教案、试卷、评估标准）",
+    "card1Deliverable": "交付成果：可使用的智能体 + 教师操作手册 + 10 课时培训",
+    "card2Title": "教务管理自动化",
+    "card2Tag": "无代码部署",
+    "card2Target": "运营总监、行政主管",
+    "card2Item1": "智能排课与冲突检测系统",
+    "card2Item2": "家校沟通自动化（周报、月报生成）",
+    "card2Item3": "考勤与课消数据可视化看板",
+    "card2Item4": "多校区信息同步工作台",
+    "card2Deliverable": "交付成果：工作流系统 + 管理后台 + 数据对接方案",
+    "card3Title": "留学咨询增强",
+    "card3Tag": "多体系感知",
+    "card3Target": "留学顾问团队负责人",
+    "card3Item1": "7×24 小时初筛咨询智能体",
+    "card3Item2": "院校匹配与选校策略生成工具",
+    "card3Item3": "文书初稿与润色辅助 Agent",
+    "card3Item4": "申请进度追踪与提醒系统",
+    "card3Deliverable": "交付成果：咨询 Agent + 知识库维护指南 + 顾问使用培训"
+  },
+  "demo": {
+    "sectionTitle": "产品实景",
+    "sectionSubtitle": "从概念到落地的完整交付，每一个 Demo 都是生产环境的真实切片",
+    "card1Title": "托福2026写作新题型练习",
+    "card1Status1": "已上线",
+    "card1Status2": "可定制",
+    "card1Stack": "React + GPT-4 + RAG",
+    "card1Desc": "从\"写完等三天\"到\"秒级反馈\"——语法错误即时可视化，学生自主练习不再依赖教师实时在线。",
+    "card1Cta": "试用 Demo",
+    "card2Title": "更多场景开发中...",
+    "card2Hint": "智能招生顾问 / 家校沟通 Agent / 个性化学习路径规划",
+    "card3Title": "有特定场景需求？",
+    "card3Desc": "描述您的教学痛点，我们 48 小时内提供可行性方案",
+    "card3Cta": "预约咨询"
+  },
+  "about": {
+    "sectionTag": "关于",
+    "title": "从学术研究到课堂现实",
+    "role": "清华大学文科博士 × 十年教育深耕者 × AI 应用设计师",
+    "para1": "学术深度：清华文科博士的训练赋予我严谨的研究方法论：拆解复杂问题、构建系统框架、验证假设迭代。这种思维方式应用于国际教育场景，能够精准定位教学流程中的关键断点。",
+    "para2": "落地经验：十年一线经验，深度参与 IB、AP、A-Level 等多体系课程研发。理解教师的实际负荷、学生的真实痛点、管理者的决策逻辑——不是旁观者的想象，而是亲历者的体感。",
+    "para3": "技术结合：当深厚的学术背景遇见前沿的 AI 技术，我们不再满足于\"概念验证\"，而是追求\"4 周内落地、教师愿意用、数据可沉淀\"的扎实交付。这是学者型设计师的独特价值。"
+  },
+  "contact": {
+    "title": "准备在教育场景中部署 AI？",
+    "subtitle": "无论您处于调研阶段还是准备立项，都可以先聊聊可行性",
+    "slogan": "真实方案，真实课堂",
+    "wechatLabel": "微信",
+    "mpLabel": "公众号",
+    "mpName": "罗伊老师的 AI 实验室",
+    "email": "thuraoyin@gmail.com",
+    "emailCta": "发送邮件",
+    "footer": {
+      "copyright": "© 2026 Roy Rao / 罗伊老师. All rights reserved.",
+      "icp": "ICP 备案中",
+      "privacy": "隐私政策"
+    }
+  },
+  "lang": {
+    "zh": "中",
+    "en": "EN"
+  }
+}

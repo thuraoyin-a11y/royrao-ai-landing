@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-bg-primary: #FAFAFA;
+  --color-bg-card: #FFFFFF;
+  --color-text-primary: #111111;
+  --color-text-secondary: #666666;
+  --color-accent: #2563EB;
+  --color-accent-deep: #1E3A8A;
+  --color-border: #E5E5E5;
+  --font-space: 'Space Grotesk', sans-serif;
+  --font-chinese: system-ui, -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  body {
+    font-family: var(--font-space);
+    background-color: var(--color-bg-primary);
+    color: var(--color-text-primary);
+    overflow-x: hidden;
+  }
+  html[lang="zh"] body,
+  html[lang="zh-CN"] body {
+    font-family: var(--font-chinese);
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+/* Reduced motion support */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

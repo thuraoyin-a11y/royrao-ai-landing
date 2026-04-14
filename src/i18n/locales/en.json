@@ -1,0 +1,102 @@
+{
+  "nav": {
+    "cta": "Get Started"
+  },
+  "hero": {
+    "title1": "Building Deployable AI Agents",
+    "title2": "for Real-World Education",
+    "subtitle1": "for International Education",
+    "subtitle2": "Building Deployable AI Agents",
+    "description": "We transform complex educational scenarios into streamlined AI workflows.",
+    "scroll": "Scroll"
+  },
+  "problemSolution": {
+    "leftTitle": "The Challenges",
+    "rightTitle": "The Solutions",
+    "challenge1Title": "Pedagogy Bottleneck",
+    "challenge1Desc": "Star teachers spend 70% of their time on repetitive grading and material preparation. Pedagogical achievements rely on individual experience, making them hard to scale or institutionalize.",
+    "challenge2Title": "Operational Drag",
+    "challenge2Desc": "Multi-campus scheduling, parent communication, and attendance tracking consume massive administrative manpower. Information silos lead to delayed decisions and limited management reach.",
+    "challenge3Title": "Consultation Ceiling",
+    "challenge3Desc": "During peak application seasons, human response times lag behind demand. Consultant training cycles are long, and standardized plans struggle to meet personalized needs.",
+    "solution1Title": "AI Teaching Assistants",
+    "solution1Tag": "Pedagogy-First",
+    "solution1Desc": "Deploy agents for essay grading, oral practice, and lesson prep. Free teachers from repetitive tasks and transform teaching materials into a queryable RAG knowledge base.",
+    "solution2Title": "Administrative Automation",
+    "solution2Tag": "No-Code Deployable",
+    "solution2Desc": "Build workflows for scheduling optimization, automated parent communication, and data dashboards. Break down information barriers across campuses and exponentially extend management reach.",
+    "solution3Title": "24/7 Consultation Engine",
+    "solution3Tag": "Multi-System Aware",
+    "solution3Desc": "Create intelligent advisors for school matching, essay polishing, and application tracking. Automatically handle 80% of standard inquiries during peak times so human advisors focus on high-value conversions.",
+    "trust": "Trusted by International Schools & Education Institutions"
+  },
+  "services": {
+    "sectionTag": "Services",
+    "card1Title": "Pedagogy AI Agents",
+    "card1Tag": "Pedagogy-First",
+    "card1Target": "For teaching teams & curriculum leads",
+    "card1Item1": "Essay auto-grading & feedback generation agent",
+    "card1Item2": "Oral practice & pronunciation correction agent",
+    "card1Item3": "Personalized lesson plan & resource integration agent",
+    "card1Item4": "Internal knowledge base (historical lesson plans, exams, rubrics)",
+    "card1Deliverable": "Deliverable: Working agents + teacher manual + 10-hr training",
+    "card2Title": "Admin Automation",
+    "card2Tag": "No-Code Deployable",
+    "card2Target": "For operations directors & admin managers",
+    "card2Item1": "Smart scheduling & conflict detection system",
+    "card2Item2": "Automated parent communication (weekly / monthly reports)",
+    "card2Item3": "Attendance & class-consumption data visualization dashboard",
+    "card2Item4": "Multi-campus information sync workbench",
+    "card2Deliverable": "Deliverable: Workflow system + admin backend + data integration plan",
+    "card3Title": "Consultation AI",
+    "card3Tag": "Multi-System Aware",
+    "card3Target": "For study-abroad consultant team leads",
+    "card3Item1": "7×24 initial screening consultation agent",
+    "card3Item2": "School matching & strategy generation tool",
+    "card3Item3": "Essay draft & polishing assistant agent",
+    "card3Item4": "Application progress tracking & reminder system",
+    "card3Deliverable": "Deliverable: Consultation agent + knowledge-base guide + consultant training"
+  },
+  "demo": {
+    "sectionTitle": "Showcase",
+    "sectionSubtitle": "From concept to production-ready deployment",
+    "card1Title": "TOEFL 2026 Writing Task Practice",
+    "card1Status1": "Live",
+    "card1Status2": "Customizable",
+    "card1Stack": "React + GPT-4 + RAG",
+    "card1Desc": "From 'wait three days after writing' to 'instant feedback'—grammar errors visualized in real time, empowering students to practice independently without relying on teachers to be online 24/7.",
+    "card1Cta": "Try Demo",
+    "card2Title": "More scenarios in development...",
+    "card2Hint": "Smart admissions advisor / Parent-school communication agent / Personalized learning path planning",
+    "card3Title": "Have a Specific Scenario?",
+    "card3Desc": "Describe your teaching pain point and we'll provide a feasibility proposal within 48 hours.",
+    "card3Cta": "Schedule a Call"
+  },
+  "about": {
+    "sectionTag": "About",
+    "title": "From Academic Research to Classroom Reality",
+    "role": "Tsinghua PhD × Decade in Education × AI Application Designer",
+    "para1": "Academic depth: My doctoral training at Tsinghua cultivated a rigorous research methodology—deconstructing complex problems, building systematic frameworks, and iterating through hypothesis validation. Applied to international education, this mindset precisely locates critical breakpoints in teaching workflows.",
+    "para2": "Grounded experience: A decade of frontline involvement in IB, AP, A-Level, and other curriculum systems. I understand the actual workload of teachers, the real pain points of students, and the decision logic of administrators—not as an outsider's imagination, but as an insider's lived experience.",
+    "para3": "Tech integration: When deep academic background meets cutting-edge AI, we no longer settle for 'proof of concept.' We pursue solid deliverables that go live within 4 weeks, that teachers actually want to use, and where data becomes institutional assets. That is the unique value of a scholar-designer."
+  },
+  "contact": {
+    "title": "Ready to Deploy AI in Your Institution?",
+    "subtitle": "Whether you're in research or ready to implement, let's discuss feasibility.",
+    "slogan": "Real Solutions, Real Classrooms",
+    "wechatLabel": "WeChat",
+    "mpLabel": "Official Account",
+    "mpName": "Roy's AI Lab",
+    "email": "thuraoyin@gmail.com",
+    "emailCta": "Send Email",
+    "footer": {
+      "copyright": "© 2026 Roy Rao. All rights reserved.",
+      "icp": "ICP Filing in Progress",
+      "privacy": "Privacy Policy"
+    }
+  },
+  "lang": {
+    "zh": "CN",
+    "en": "EN"
+  }
+}
